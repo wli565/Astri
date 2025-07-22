@@ -25,21 +25,10 @@
 ## Roadmap
 
 ### Immediate Next Steps
-🔧 **In Development**:
+**In Development**:
 - Dynamic Vertex Configuration
   - Fetch IDs from API/configuration files
   - Auto-discover new warehouse vertices
-
-🔜 **Pending**:
-- Real Inventory API Integration
-  - Endpoint: `GET /agvo/rest/inventory/status` 
-  - Live stock level monitoring
-
-### Future Enhancements
-🛠 **Planned**:
-- Multi-AGV coordination
-- Task conflict resolution
-- Warehouse layout visualization
 
 ## Sample Output
 ```python
