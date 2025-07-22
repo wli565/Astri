@@ -5,14 +5,6 @@
 - **Python Version**: 3.8+
 - **Dependencies**: `requests`, `urllib3`
 
-## Test Cases
-
-| Test Case               | Description                          | Status | Notes                  |
-|-------------------------|--------------------------------------|--------|------------------------|
-| Authentication          | Login with root credentials          | ✅ PASS | Response: `{"success":true}` |
-| Task Submission (W1→S1) | Basic move task execution            | ✅ PASS | Vertex mapping verified |
-| Priority Handling       | Task priority assignment (1-3)       | ✅ PASS | Priority=2 validated   |
-| Error Handling          | Invalid vertex detection             | ✅ PASS | Returns graceful error |
 
 ## Limitations
 
@@ -62,7 +54,6 @@ Wed Jun 12 14:30:00 2024 - New task batch started
 [SUCCESS] w3 to w4
 
 Wed Jun 12 14:40:00 2024 - New task batch started
-[SUCCESS] w4 to w3
 [INFO] No runnable tasks in this batch
 
 Wed Jun 12 14:50:00 2024 - New task batch started
