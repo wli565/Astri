@@ -1,9 +1,18 @@
+
 # AGV Control System Test Report
 
+## System Overview
+- **Controller Type**: Periodic task generator
+- **Operation Mode**: Continuous batch processing with silent failure handling
+- **Vertex Mapping**: Dynamic permutations of S1(172), W3(177), W4(178)
+
 ## Test Environment
-- **API Endpoint**: `http://10.6.68.65:8080/agvo/rest`
-- **Python Version**: 3.8+
-- **Dependencies**: `requests`, `urllib3`
+| Component       | Specification               |
+|-----------------|-----------------------------|
+| API Endpoint    | `http://10.6.68.65:8080/agvo/rest` |
+| Python Version  | 3.8+                       |
+| Timezone        | Asia/Shanghai               |
+| Key Dependencies| `requests`, `enum`, `random`|
 
 
 ## Limitations
